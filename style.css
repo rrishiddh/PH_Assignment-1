@@ -25,6 +25,7 @@
 #navbar{
      display: flex;
      padding: 40px 0px;
+     align-items: center;  
 }
 
 .nav-heading{
@@ -35,4 +36,63 @@
     line-height: 27px;
     letter-spacing: 0%;
     text-align: left;
+}
+.banner{
+    background-image: url("assets/Hero-bg.png");
+    background-size: contain;
+    box-sizing: border-box;
+    border-top: 1px dashed rgba(128, 128, 128, 0.5);   
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.5);
+}
+.banner-div{    
+    text-align: center;
+    width: 858px;
+    height: 500px;
+    padding: 36px 0;
+   
+}
+.banner-div > img{
+    width: 205.10px;
+    height: 205px;
+    
+}
+
+.banner-heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 57px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 19px 0px;
+    max-width: 858px;  
+}
+
+.subtitle{
+    margin: 19px 0px 19px 50px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 732px;
+}
+
+.btn-2{
+    border-radius: 6px;
+    background: rgb(13, 19, 33);
+    padding: 17px 19px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+
 }
