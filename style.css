@@ -43,8 +43,6 @@
     background-image: url("assets/Hero-bg.png");
     background-size: contain;
     box-sizing: border-box;
-    border-top: 1px dashed rgba(128, 128, 128, 0.5);   
-    border-bottom: 1px dashed rgba(128, 128, 128, 0.5);
     width: auto;
 }
 .banner-div{    
@@ -76,7 +74,7 @@
     margin: 19px 0px 19px 50px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0%;
@@ -233,7 +231,7 @@
     background: rgba(255, 223, 0, 0.05);
 }
 .main-3-div-1-card-1-innertxt{
-    ma-width: 243px;
+    max-width: 243px;
     max-height: 187px;
     margin: 26px 0px;
 
@@ -293,8 +291,7 @@
 .main-4-div-card-img{
     width: 90px;
     height: 70px;
-    margin: 0px 19px;
-    /* padding-right: 15px; */
+    margin: 0px 30px 0px 0px;
 }
 .main-4-div-card-img > img {
     width: 100%;
@@ -312,7 +309,7 @@
     padding: 20px 0px;
     margin-bottom: 70px;
     border-radius: 16px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("assets/handshake.jpg");
+    background-image: linear-gradient(90deg, #00000070,#0000006c,#0000005f), url("assets/handshake.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -356,11 +353,11 @@
 .footer-left{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 16px;
     letter-spacing: 0%;
-    text-align: center;
+    text-align: left;
 }
 .footer-right > a{
      margin: 0 10px;
