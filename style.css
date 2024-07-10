@@ -1,10 +1,13 @@
+
+/* Comment about size/margin/padding ratio: The sizes specified in the Figma design have been adjusted relative to my Windows screen size of 1240 pixels, which equates to 0.861 times the actual dimensions in the design.*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0 auto;
     padding: 0;
 }
-
 .btn-1{
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
@@ -18,16 +21,15 @@
     line-height: 18px;
     letter-spacing: 0%;
     text-align: center;
-    
 }
 
 
 #navbar{
-     display: flex;
-     padding: 40px 0px;
-     align-items: center;  
-     justify-content: space-between;
-     width: auto;
+    display: flex;
+    padding: 40px 0px;
+    align-items: center;  
+    justify-content: space-between;
+    width: auto;
 }
 
 .nav-heading{
@@ -50,12 +52,10 @@
     width: 858px;
     height: 500px;
     padding: 36px 0;
-   
 }
 .banner-div > img{
     width: 205.10px;
     height: 205px;
-    
 }
 
 .banner-heading{
@@ -95,7 +95,6 @@
     letter-spacing: 0%;
     text-align: center;
     margin-top: 20px;
-
 }
 
 .main-1-div-bg{
@@ -105,7 +104,7 @@
     background: rgba(13, 19, 33, 0.02);
     padding: 67px 82px;
     margin: 90px auto; 
-     box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .main-1-div{
@@ -135,8 +134,7 @@
 }
 .main-1-div-card1-left{
     width: 409px;
-    height: 187px;
-    
+    height: 187px;    
 }
 .main-1-div-card1-left-h1{
     color: rgba(13, 19, 33, 0.7);
@@ -167,12 +165,10 @@
     width: 99%;
     height: 0%;
 }
-
 .main-2-div{
     width: 980px;
     height: 667px;
     margin-bottom: 60px;
-    
 }
 .main-2-div1{
     max-width: 732px;
@@ -194,8 +190,8 @@
 }
 .main-2-div2-vdo > iframe{
     border-radius: 16px;
-     width: 100%;
-     height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .main-3-div{
@@ -214,12 +210,10 @@
 }
 .main-3-div-1-card-1{
     border-radius: 12px;  
-
     width: 312px;
     height: 200px;
     margin: 0px 10px;
     padding: 20px;
-
 }
 .main-3-div-1-card-1-bg-color{
     background: rgba(255, 76, 30, 0.05);
@@ -284,7 +278,6 @@
 .main-4-div-card-outer{
     width: 911px;
     height: 118px;
-    /* margin: 5px 0px; */
     display: flex;
     align-items: center;
 }
@@ -300,7 +293,6 @@
 .main-4-div-card-txt{
     width: 809px;
     height: 118px;
-    /* margin: 12px 0px; */
 }
 .main-5-div-bg{
     width: 980px;
