@@ -3,7 +3,6 @@
 *{
     margin: 0 auto;
     padding: 0;
-    width: auto;
 }
 
 .btn-1{
@@ -27,6 +26,8 @@
      display: flex;
      padding: 40px 0px;
      align-items: center;  
+     justify-content: space-between;
+     width: auto;
 }
 
 .nav-heading{
@@ -44,6 +45,7 @@
     box-sizing: border-box;
     border-top: 1px dashed rgba(128, 128, 128, 0.5);   
     border-bottom: 1px dashed rgba(128, 128, 128, 0.5);
+    width: auto;
 }
 .banner-div{    
     text-align: center;
@@ -342,3 +344,25 @@
     border: none;
 }
 
+#footer{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: auto;
+    height: 85px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-left{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.footer-right > a{
+     margin: 0 10px;
+     text-decoration: none;
+}
